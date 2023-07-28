@@ -1,3 +1,6 @@
+import Navbar from "./components/navbar/Navbar";
+
+
 function App() {
   return (
     <div className="App">
@@ -7,15 +10,7 @@ function App() {
   );
 }
 
-function Navbar(){
-  return(
-    <div>
-      <h1>
-        test
-      </h1>
-    </div>
-  );
-}
+
 
 function Footer(){
   return(
