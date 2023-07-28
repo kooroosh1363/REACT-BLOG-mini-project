@@ -1,7 +1,26 @@
 function App() {
   return (
     <div className="App">
-      <h1>raad-app</h1>
+      <Navbar/>
+      <Footer/>
+    </div>
+  );
+}
+
+function Navbar(){
+  return(
+    <div>
+      <h1>
+        test
+      </h1>
+    </div>
+  );
+}
+
+function Footer(){
+  return(
+    <div>
+      <h3>footer</h3>
     </div>
   );
 }
