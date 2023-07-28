@@ -1,9 +1,9 @@
-import "./Navbar.css"
+import styled from './Navbar.module.css'
 
 function Navbar() {
     return (
-        <div className="header">
-            <h1 style={{textAlign: "center"}} className="header-title">
+        <div className={styled.header}>
+            <h1>
                 header
             </h1>
         </div>
