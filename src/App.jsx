@@ -1,5 +1,5 @@
 import Navbar from "./components/navbar/Navbar";
-
+import Footer from "./components/footer/Footer";
 
 function App() {
   return (
@@ -12,12 +12,6 @@ function App() {
 
 
 
-function Footer(){
-  return(
-    <div>
-      <h3>footer</h3>
-    </div>
-  );
-}
+
 
 export default App;
