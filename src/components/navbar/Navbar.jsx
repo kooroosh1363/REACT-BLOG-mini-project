@@ -1,8 +1,8 @@
 import styled from './Navbar.module.css'
 
-function Navbar() {
+function Navbar(props) {
 
-    let title = "RAAD BLOG";
+    
 
 
 
@@ -11,7 +11,7 @@ function Navbar() {
 
 
             <div className={styled.menu}>
-                <div><h3>{title}</h3></div>
+                <div><h3>{props.title}</h3></div>
                 <div >
                     <ul>
                         <li><a href="#">Home</a></li>

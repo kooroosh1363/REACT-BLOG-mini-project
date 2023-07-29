@@ -4,7 +4,7 @@ import Footer from "./components/footer/Footer";
 function App() {
   return (
     <div className="App">
-      <Navbar/>
+      <Navbar title='RAAD BLOG'/>
       {/* <Footer/> */}
     </div>
   );
