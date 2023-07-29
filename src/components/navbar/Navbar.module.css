@@ -12,6 +12,31 @@
 
 
 .header{
-    background-color: darkkhaki;
+    box-shadow: 0px 3px 5px #d1d1d1 ;
     text-align: center;
+    height: 55px;
+    display: flex;
+    justify-content: start;
+    align-items: center;
+}
+
+.header ul{
+    display: flex;
+    padding-left: 20px;
+    
+}
+
+
+.header ul li {
+    margin-right: 25px;
+}
+
+.header ul li a{
+    color: rgb(183, 87, 182);
+    font-weight: bolder;
+    font-size: 19px;
+}
+
+.header ul li a:hover{
+    color: rgb(115, 207, 84);
 }
