@@ -1,0 +1,21 @@
+/* homeWrapper */
+.homeWrapper{
+
+}
+
+
+.homeWrapper h2{
+    margin-top: 20px;
+    font-size: 20px;
+    color: rgb(118, 45, 116);
+    margin-bottom: 20px;
+}
+
+
+/* articles */
+.articles{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
