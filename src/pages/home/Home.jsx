@@ -10,7 +10,10 @@ function Home() {
 
         <div>
             <Navbar title='RAAD BLOG' />
-            {/* <Footer/> */}
+            
+            <div className="container">
+                <h1>home</h1>
+            </div>
         </div>
 
     )
