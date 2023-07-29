@@ -23,6 +23,7 @@ function Navbar(props) {
                     </div>
 
                     <div className={styled.search}>
+                        
                         <input type="text" />
                     </div>
                 </div>
