@@ -18,9 +18,11 @@
     margin: 10px 0;
     color: rgb(118, 45, 116);
     font-size: 19px;
+    font-weight: bolder;
 }
 
 .articleWrapper span{
     padding-left: 10px;
     color: rgb(122, 87, 121);
+    font-weight: 700;
 }
