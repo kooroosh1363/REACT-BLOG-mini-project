@@ -3,7 +3,7 @@ import article from "../../assets/image/article.gif";
 
 function Article(props){
 
-    console.log(props.articleData.title);
+    // console.log(props.articleData.title);
     return(
         <div className={styled.articleWrapper}>
             <img src={props.articleData.imageUlr}  />
