@@ -1,4 +1,9 @@
 .footer{
-    background-color: bisque;
-    text-align: center;
+    background-color: rgb(127, 125, 124);
+    color: rgb(249, 245, 245);
+    height: 400px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 50px;
 }
