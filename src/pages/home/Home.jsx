@@ -6,6 +6,32 @@ import styled from "./Home.module.css";
 
 function Home() {
 
+    let articles = [
+        {
+            id: 1,
+            imageUlr: "",
+            title: "first title",
+            readingTime: 5
+        },
+        {
+            id: 2,
+            imageUlr: "",
+            title: "sec title",
+            readingTime: 4
+        },
+        {
+            id: 3,
+            imageUlr: "",
+            title: "third title",
+            readingTime: 3
+        },
+        {
+            id: 4,
+            imageUlr: "",
+            title: "forth title",
+            readingTime: 3
+        },
+    ]
 
     return (
 
@@ -15,14 +41,15 @@ function Home() {
             <div className="container">
                 <h2>New Articles :</h2>
                 <div className={styled.articles}>
-                    <Article />
-                    <Article />
-                    <Article />
-                    <Article />
-                    <Article />
-                    <Article />
-                    <Article />
-                    <Article />
+                    {
+                        articles.map((article) =>(
+                            <Article />
+                        ))
+                    }
+
+
+                    
+                    
                 </div>
 
             </div>
