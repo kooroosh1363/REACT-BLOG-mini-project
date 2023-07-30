@@ -3,6 +3,7 @@ import Article from "../../components/Article/Article";
 import Navbar from "../../components/navbar/Navbar";
 import styled from "./Home.module.css";
 import axios from "axios";
+import Footer from "../../components/footer/Footer";
 
 
 function Home() {
@@ -43,6 +44,8 @@ function Home() {
                 </div>
 
             </div>
+
+            <Footer/>
         </div>
 
     )
