@@ -1,0 +1,28 @@
+.aboutPage{
+   text-align: center;
+}
+
+
+.aboutPage h2{
+    margin: 70px 0 20px 0;
+    color: rgb(93, 50, 92);
+    font-size: 30px;
+    text-align: left;
+}
+
+
+.aboutPage p{
+    font-size: 22px;
+    color: rgb(93, 50, 92);
+    font-weight: 700;
+    margin-bottom: 74px;
+    text-align: left;
+}
+
+
+
+
+.aboutPage img{
+    width: 750px;
+    border-radius: 8px;
+}
