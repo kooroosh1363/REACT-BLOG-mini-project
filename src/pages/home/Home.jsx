@@ -2,7 +2,7 @@ import { useEffect, useState } from "react";
 import Article from "../../components/Article/Article";
 import Navbar from "../../components/navbar/Navbar";
 import styled from "./Home.module.css";
-
+import axios from "axios";
 
 
 function Home() {
@@ -11,9 +11,15 @@ function Home() {
 
     useEffect(() => {
         // API call
-        // setArticles(
-           
-        // )
+        axios.get("http://localhost:8000/articles").then((result)=>{
+
+            setArticles(result.data.data)
+
+
+            // console.log(result.data.data);
+        }).catch((error)=>{
+            console.log(error);
+        })
            
     }, []);
 
