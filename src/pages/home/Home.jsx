@@ -17,10 +17,11 @@ function Home() {
             setArticles(result.data.data);
 
 
-            // console.log(result.data.data);
-        }).catch((error) => {
-            console.log(error);
+            console.log(result.data.data);
         })
+        .catch((error) => {
+            console.log(error);
+        });
 
     }, []);
 

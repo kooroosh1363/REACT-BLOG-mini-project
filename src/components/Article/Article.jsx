@@ -1,5 +1,5 @@
 import styled from "./Article.module.css";
-import article from "../../assets/image/article.gif";
+// import article from "../../assets/image/article.gif";
 
 function Article(props){
 

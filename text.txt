@@ -105,3 +105,176 @@ logo in App.js:
           Learn React
         </a>
       </header>
+
+
+
+
+
+
+
+      // {
+//     "articles": [
+//         {
+//             "id": 1,
+//             "imageUlr": "https://i.pinimg.com/originals/2f/ab/f3/2fabf3ceb5a35b51a70e27137d56e4d2.gif",
+//             "title": "first title",
+//             "readingTime": 5,
+//             "date": "01/01/2023",
+//             "Author":"Raad",
+//             "content":"Lorem ipsum dolor sit amet consectetur adipisicing elit. Impedit eum asperiores molestias id eos nihil saepe, perspiciatis molestiae beatae doloremque magni possimus deleniti quo ea enim aliquam et reiciendis facere. Odit adipisci incidunt delectus nihil mollitia doloribus impedit nemo voluptate? Expedita doloribus atque at iure placeat inventore nostrum veritatis eos modi, rerum deserunt reiciendis voluptate ipsa quis dicta neque quisquam."
+//         },
+//         {
+//             "id": 2,
+//             "imageUlr": "https://media.licdn.com/dms/image/D4D12AQFWvaMwVQ9BZg/article-cover_image-shrink_720_1280/0/1684837085609?e=2147483647&v=beta&t=e64tRuZBFjDZLmAykvFyxeSrCEBrOrZCfTJN7EFizVk",
+//             "title": "sec title",
+//             "readingTime": 4,
+//             "date": "01/01/2023",
+//             "Author":"Raad",
+//             "content":"Lorem ipsum dolor sit amet consectetur adipisicing elit. Impedit eum asperiores molestias id eos nihil saepe, perspiciatis molestiae beatae doloremque magni possimus deleniti quo ea enim aliquam et reiciendis facere. Odit adipisci incidunt delectus nihil mollitia doloribus impedit nemo voluptate? Expedita doloribus atque at iure placeat inventore nostrum veritatis eos modi, rerum deserunt reiciendis voluptate ipsa quis dicta neque quisquam."
+//         },
+//         {
+//             "id": 3,
+//             "imageUlr": "https://i.pinimg.com/originals/bb/d7/cd/bbd7cd62c9f1f6778e91b11a71874ab6.gif",
+//             "title": "third title",
+//             "readingTime": ,
+//             "date": "01/01/2023",
+//             "Author":"Raad",
+//             "content":"Lorem ipsum dolor sit amet consectetur adipisicing elit. Impedit eum asperiores molestias id eos nihil saepe, perspiciatis molestiae beatae doloremque magni possimus deleniti quo ea enim aliquam et reiciendis facere. Odit adipisci incidunt delectus nihil mollitia doloribus impedit nemo voluptate? Expedita doloribus atque at iure placeat inventore nostrum veritatis eos modi, rerum deserunt reiciendis voluptate ipsa quis dicta neque quisquam."
+//         },
+//         {
+//             "id": 4,
+//             "imageUlr": "https://i.pinimg.com/originals/b4/3d/43/b43d438638e2ed51d1f19dad2a4eb24d.gif",
+//             "title": "forth title",
+//             "readingTime": 8,
+//             "date": "01/01/2023",
+//             "Author":"Raad",
+//             "content":"Lorem ipsum dolor sit amet consectetur adipisicing elit. Impedit eum asperiores molestias id eos nihil saepe, perspiciatis molestiae beatae doloremque magni possimus deleniti quo ea enim aliquam et reiciendis facere. Odit adipisci incidunt delectus nihil mollitia doloribus impedit nemo voluptate? Expedita doloribus atque at iure placeat inventore nostrum veritatis eos modi, rerum deserunt reiciendis voluptate ipsa quis dicta neque quisquam."
+//         },
+//         {
+//             "id": 5,
+//             "imageUlr": "https://irp.cdn-website.com/5915c483/dms3rep/multi/freelance+giphy+side+hustle+make+money+giphy.gif",
+//             "title": "fifth title",
+//             "readingTime": 11,
+//             "date": "01/01/2023",
+//             "Author":"Raad",
+//             "content":"Lorem ipsum dolor sit amet consectetur adipisicing elit. Impedit eum asperiores molestias id eos nihil saepe, perspiciatis molestiae beatae doloremque magni possimus deleniti quo ea enim aliquam et reiciendis facere. Odit adipisci incidunt delectus nihil mollitia doloribus impedit nemo voluptate? Expedita doloribus atque at iure placeat inventore nostrum veritatis eos modi, rerum deserunt reiciendis voluptate ipsa quis dicta neque quisquam."
+//         },
+//         {
+//             "id": 6,
+//             "imageUlr": "https://cdn.dribbble.com/users/846207/screenshots/9192312/office-desk-animation.gif",
+//             "title": "sixth title",
+//             "readingTime": 13,
+//             "date": "01/01/2023",
+//             "Author":"Raad",
+//             "content":"Lorem ipsum dolor sit amet consectetur adipisicing elit. Impedit eum asperiores molestias id eos nihil saepe, perspiciatis molestiae beatae doloremque magni possimus deleniti quo ea enim aliquam et reiciendis facere. Odit adipisci incidunt delectus nihil mollitia doloribus impedit nemo voluptate? Expedita doloribus atque at iure placeat inventore nostrum veritatis eos modi, rerum deserunt reiciendis voluptate ipsa quis dicta neque quisquam."
+//         },
+//         {
+//             "id": 7,
+//             "imageUlr": "https://i.pinimg.com/originals/68/36/db/6836dbe3b0f86daa293c22758497c18f.gif",
+//             "title": "seventh title",
+//             "readingTime": 16,
+//             "date": "01/01/2023",
+//             "Author":"Raad",
+//             "content":"Lorem ipsum dolor sit amet consectetur adipisicing elit. Impedit eum asperiores molestias id eos nihil saepe, perspiciatis molestiae beatae doloremque magni possimus deleniti quo ea enim aliquam et reiciendis facere. Odit adipisci incidunt delectus nihil mollitia doloribus impedit nemo voluptate? Expedita doloribus atque at iure placeat inventore nostrum veritatis eos modi, rerum deserunt reiciendis voluptate ipsa quis dicta neque quisquam."
+//         },
+//         {
+//             "id": 8,
+//             "imageUlr": "https://i.pinimg.com/originals/22/a5/c7/22a5c746a97687ea11af86ee8bfabe20.gif",
+//             "title": "fifth title",
+//             "readingTime": 12,
+//             "date": "01/01/2023",
+//             "Author":"Raad",
+//             "content":"Lorem ipsum dolor sit amet consectetur adipisicing elit. Impedit eum asperiores molestias id eos nihil saepe, perspiciatis molestiae beatae doloremque magni possimus deleniti quo ea enim aliquam et reiciendis facere. Odit adipisci incidunt delectus nihil mollitia doloribus impedit nemo voluptate? Expedita doloribus atque at iure placeat inventore nostrum veritatis eos modi, rerum deserunt reiciendis voluptate ipsa quis dicta neque quisquam."
+//         }
+//     ]
+// }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+[
+            {
+                "id": 1,
+                "imageUrl": "https://i.pinimg.com/originals/2f/ab/f3/2fabf3ceb5a35b51a70e27137d56e4d2.gif",
+                "title": "first title",
+                "readingTime": 5,
+                "date": "01/01/2023",
+                "Author": "Raad",
+                "content": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Impedit eum asperiores molestias id eos nihil saepe, perspiciatis molestiae beatae doloremque magni possimus deleniti quo ea enim aliquam et reiciendis facere. Odit adipisci incidunt delectus nihil mollitia doloribus impedit nemo voluptate? Expedita doloribus atque at iure placeat inventore nostrum veritatis eos modi, rerum deserunt reiciendis voluptate ipsa quis dicta neque quisquam."
+            },
+            {
+                "id": 2,
+                "imageUrl": "https://media.licdn.com/dms/image/D4D12AQFWvaMwVQ9BZg/article-cover_image-shrink_720_1280/0/1684837085609?e=2147483647&v=beta&t=e64tRuZBFjDZLmAykvFyxeSrCEBrOrZCfTJN7EFizVk",
+                "title": "sec title",
+                "readingTime": 4,
+                "date": "01/01/2023",
+                "Author": "Raad",
+                "content": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Impedit eum asperiores molestias id eos nihil saepe, perspiciatis molestiae beatae doloremque magni possimus deleniti quo ea enim aliquam et reiciendis facere. Odit adipisci incidunt delectus nihil mollitia doloribus impedit nemo voluptate? Expedita doloribus atque at iure placeat inventore nostrum veritatis eos modi, rerum deserunt reiciendis voluptate ipsa quis dicta neque quisquam."
+            },
+            {
+                "id": 3,
+                "imageUrl": "https://i.pinimg.com/originals/bb/d7/cd/bbd7cd62c9f1f6778e91b11a71874ab6.gif",
+                "title": "third title",
+                "readingTime": 6,
+                "date": "01/01/2023",
+                "Author": "Raad",
+                "content": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Impedit eum asperiores molestias id eos nihil saepe, perspiciatis molestiae beatae doloremque magni possimus deleniti quo ea enim aliquam et reiciendis facere. Odit adipisci incidunt delectus nihil mollitia doloribus impedit nemo voluptate? Expedita doloribus atque at iure placeat inventore nostrum veritatis eos modi, rerum deserunt reiciendis voluptate ipsa quis dicta neque quisquam."
+            },
+            {
+                "id": 4,
+                "imageUrl": "https://i.pinimg.com/originals/b4/3d/43/b43d438638e2ed51d1f19dad2a4eb24d.gif",
+                "title": "forth title",
+                "readingTime": 8,
+                "date": "01/01/2023",
+                "Author": "Raad",
+                "content": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Impedit eum asperiores molestias id eos nihil saepe, perspiciatis molestiae beatae doloremque magni possimus deleniti quo ea enim aliquam et reiciendis facere. Odit adipisci incidunt delectus nihil mollitia doloribus impedit nemo voluptate? Expedita doloribus atque at iure placeat inventore nostrum veritatis eos modi, rerum deserunt reiciendis voluptate ipsa quis dicta neque quisquam."
+            },
+            {
+                "id": 5,
+                "imageUrl": "https://irp.cdn-website.com/5915c483/dms3rep/multi/freelance+giphy+side+hustle+make+money+giphy.gif",
+                "title": "fifth title",
+                "readingTime": 11,
+                "date": "01/01/2023",
+                "Author": "Raad",
+                "content": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Impedit eum asperiores molestias id eos nihil saepe, perspiciatis molestiae beatae doloremque magni possimus deleniti quo ea enim aliquam et reiciendis facere. Odit adipisci incidunt delectus nihil mollitia doloribus impedit nemo voluptate? Expedita doloribus atque at iure placeat inventore nostrum veritatis eos modi, rerum deserunt reiciendis voluptate ipsa quis dicta neque quisquam."
+            },
+            {
+                "id": 6,
+                "imageUrl": "https://cdn.dribbble.com/users/846207/screenshots/9192312/office-desk-animation.gif",
+                "title": "sixth title",
+                "readingTime": 13,
+                "date": "01/01/2023",
+                "Author": "Raad",
+                "content": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Impedit eum asperiores molestias id eos nihil saepe, perspiciatis molestiae beatae doloremque magni possimus deleniti quo ea enim aliquam et reiciendis facere. Odit adipisci incidunt delectus nihil mollitia doloribus impedit nemo voluptate? Expedita doloribus atque at iure placeat inventore nostrum veritatis eos modi, rerum deserunt reiciendis voluptate ipsa quis dicta neque quisquam."
+            },
+            {
+                "id": 7,
+                "imageUrl": "https://i.pinimg.com/originals/68/36/db/6836dbe3b0f86daa293c22758497c18f.gif",
+                "title": "seventh title",
+                "readingTime": 16,
+                "date": "01/01/2023",
+                "Author": "Raad",
+                "content": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Impedit eum asperiores molestias id eos nihil saepe, perspiciatis molestiae beatae doloremque magni possimus deleniti quo ea enim aliquam et reiciendis facere. Odit adipisci incidunt delectus nihil mollitia doloribus impedit nemo voluptate? Expedita doloribus atque at iure placeat inventore nostrum veritatis eos modi, rerum deserunt reiciendis voluptate ipsa quis dicta neque quisquam."
+            },
+            {
+                "id": 8,
+                "imageUrl": "https://i.pinimg.com/originals/22/a5/c7/22a5c746a97687ea11af86ee8bfabe20.gif",
+                "title": "eighth title",
+                "readingTime": 12,
+                "date": "01/01/2023",
+                "Author": "Raad",
+                "content": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Impedit eum asperiores molestias id eos nihil saepe, perspiciatis molestiae beatae doloremque magni possimus deleniti quo ea enim aliquam et reiciendis facere. Odit adipisci incidunt delectus nihil mollitia doloribus impedit nemo voluptate? Expedita doloribus atque at iure placeat inventore nostrum veritatis eos modi, rerum deserunt reiciendis voluptate ipsa quis dicta neque quisquam."
+            }
+        ]
