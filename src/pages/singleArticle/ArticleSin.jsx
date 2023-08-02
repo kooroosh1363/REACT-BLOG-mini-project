@@ -5,6 +5,7 @@ import Footer from "../../components/footer/Footer";
 import { useParams } from "react-router-dom";
 import { useEffect, useState } from "react";
 import axios from "axios";
+import Spinner from "../../components/spinner/spinner";
 
 
 
@@ -40,7 +41,7 @@ function ArticleSin() {
                 <div className="container">
 
                     {
-                        isLoading ? <p>Please Wait A Moment ...</p> : (
+                        isLoading ? <Spinner/> : (
                             <>
                                 <h1>{article.title}</h1>
                                 <div className={styled.articleInfo}>
