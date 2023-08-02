@@ -15,7 +15,7 @@ function Home() {
         // API call
         axios.get("http://localhost:8000/articles").then((result) => {
 
-            setArticles(result.data.data);
+            setArticles(result.data);
 
 
             // console.log(result.data.data);
