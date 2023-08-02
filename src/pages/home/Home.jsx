@@ -6,6 +6,7 @@ import axios from "axios";
 import Footer from "../../components/footer/Footer";
 import { Link } from "react-router-dom";
 import ArticleSin from "../singleArticle/ArticleSin";
+import Spinner from "../../components/spinner/spinner";
 
 function Home() {
 
@@ -34,12 +35,12 @@ function Home() {
 
         <div className={styled.homeWrapper}>
             <Navbar title='RAAD BLOG' />
-
+            
             <div className="container">
                 <h2>New Articles :</h2>
 
                 {
-                    isLoading ? <p>Please Wait A Moment ...</p> : (<div className={styled.articles}>
+                    isLoading ? <Spinner/> : (<div className={styled.articles}>
                         {
                             articles.map((article) => (
                                 <Link to={`/article/${article.id}`}>
