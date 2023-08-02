@@ -5,6 +5,7 @@ import styled from "./Home.module.css";
 import axios from "axios";
 import Footer from "../../components/footer/Footer";
 import { Link } from "react-router-dom";
+import ArticleSin from "../singleArticle/ArticleSin";
 
 function Home() {
 
@@ -17,7 +18,7 @@ function Home() {
             setArticles(result.data.data);
 
 
-            console.log(result.data.data);
+            // console.log(result.data.data);
         })
         .catch((error) => {
             console.log(error);
