@@ -1,9 +1,9 @@
 {
-    "articles": {
-        "data": [
+    "articles":  [
             {
                 "id": 1,
                 "imageUlr": "https://www.icegif.com/wp-content/uploads/writing-icegif-10.gif",                "title": "first title",
+                "title": "first title",
                 "readingTime": 5,
                 "date": "01/01/2023",
                 "Author": "Raad",
@@ -22,7 +22,7 @@
                 "id": 3,
                 "imageUlr": "https://i.pinimg.com/originals/bb/d7/cd/bbd7cd62c9f1f6778e91b11a71874ab6.gif",
                 "title": "third title",
-                "readingTime": 22 ,
+                "readingTime": 22,
                 "date": "01/01/2023",
                 "Author": "Raad",
                 "content": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Impedit eum asperiores molestias id eos nihil saepe, perspiciatis molestiae beatae doloremque magni possimus deleniti quo ea enim aliquam et reiciendis facere. Odit adipisci incidunt delectus nihil mollitia doloribus impedit nemo voluptate? Expedita doloribus atque at iure placeat inventore nostrum veritatis eos modi, rerum deserunt reiciendis voluptate ipsa quis dicta neque quisquam."
@@ -73,7 +73,7 @@
                 "content": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Impedit eum asperiores molestias id eos nihil saepe, perspiciatis molestiae beatae doloremque magni possimus deleniti quo ea enim aliquam et reiciendis facere. Odit adipisci incidunt delectus nihil mollitia doloribus impedit nemo voluptate? Expedita doloribus atque at iure placeat inventore nostrum veritatis eos modi, rerum deserunt reiciendis voluptate ipsa quis dicta neque quisquam."
             }
         ]
-    }
+    
 }
 
 
