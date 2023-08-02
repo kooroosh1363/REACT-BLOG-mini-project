@@ -17,7 +17,7 @@ function Navbar(props) {
                             <ul>
                                 <li><a href="#"><Link>Home</Link></a></li>
                                 <li><a href="#"><Link to="/">Articles</Link></a></li>
-                                <li><a href="#"><Link>New Articles</Link></a></li>
+                                <li><a href="#"><Link to="/NewArticles">New Articles</Link></a></li>
                                 <li><a href="#"><Link to="/about">About Us</Link></a></li>
                             </ul>
                         </div>
