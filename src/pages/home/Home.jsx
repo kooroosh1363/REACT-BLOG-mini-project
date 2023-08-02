@@ -9,20 +9,24 @@ import ArticleSin from "../singleArticle/ArticleSin";
 
 function Home() {
 
-    const [articles, setArticles] = useState([])
+    const [articles, setArticles] = useState([]);
+    const [isLoading, setIsLoading] = useState(false)
 
     useEffect(() => {
         // API call
+        setIsLoading(true)
         axios.get("http://localhost:8000/articles").then((result) => {
 
             setArticles(result.data);
-
+            setIsLoading(false)
 
             // console.log(result.data.data);
         })
-        .catch((error) => {
-            console.log(error);
-        });
+            .catch((error) => {
+                console.log(error);
+                setIsLoading(false)
+
+            });
 
     }, []);
 
@@ -33,19 +37,26 @@ function Home() {
 
             <div className="container">
                 <h2>New Articles :</h2>
-                <div className={styled.articles}>
-                    {
-                        articles.map((article) => (
-                            <Link to={`/article/${article.id}`}>
-                                <Article key={article.id} articleData={article} />
-                            </Link>
-                        ))
-                    }
+
+                {
+                    isLoading ? <p>Please Wait A Moment ...</p> : (<div className={styled.articles}>
+                        {
+                            articles.map((article) => (
+                                <Link to={`/article/${article.id}`}>
+                                    <Article key={article.id} articleData={article} />
+                                </Link>
+                            ))
+                        }
 
 
 
 
-                </div>
+                    </div>)
+                }
+
+
+
+
 
             </div>
 

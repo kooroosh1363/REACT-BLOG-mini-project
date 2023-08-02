@@ -12,17 +12,21 @@ function ArticleSin() {
 
     const [article, setArticle] = useState({});
 
+    const [isLoading, setIsLoading] = useState(false)
 
     const params = useParams()
 
     useEffect(() => {
+        setIsLoading(true)
         axios.get(`http://localhost:8000/articles/${params.id}`).then((result) => {
 
             setArticle(result.data);
-            console.log(result.data)
+            setIsLoading(false)
         })
             .catch((error) => {
                 console.log(error);
+                setIsLoading(false)
+
             });
 
 
@@ -34,16 +38,23 @@ function ArticleSin() {
 
             <div className={styled.articleWrapper}>
                 <div className="container">
-                    <h1>{article.title}</h1>
-                    <div className={styled.articleInfo}>
-                        <span>Date:{article.date}</span>
-                        <span>Author:{article.Author}</span>
-                        <span>Time For Reading: {article.readingTime}</span>
-                    </div>
 
-                    <img src={article.imageUlr} alt="" />
+                    {
+                        isLoading ? <p>Please Wait A Moment ...</p> : (
+                            <>
+                                <h1>{article.title}</h1>
+                                <div className={styled.articleInfo}>
+                                    <span>Date:{article.date}</span>
+                                    <span>Author:{article.Author}</span>
+                                    <span>Time For Reading: {article.readingTime}</span>
+                                </div>
 
-                    <p>{article.content} </p>
+                                <img src={article.imageUlr} alt="" />
+
+                                <p>{article.content} </p>
+                            </>
+                        )
+                    }
                 </div>
             </div>
 
