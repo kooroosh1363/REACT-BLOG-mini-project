@@ -9,3 +9,22 @@
     font-size: 18px;
     font-weight:bold;
 }
+
+
+.inputWrapper{
+
+}
+
+.inputWrapper label{
+    display: block;
+    margin-bottom: 7px;
+}
+
+.inputWrapper input{
+    width: 100%;
+    padding: 10px;
+    border: none;
+    outline: none;
+    border-radius: 8px;
+    box-shadow: 0px 2px 4px #757575;
+}
