@@ -3,8 +3,7 @@
         "data": [
             {
                 "id": 1,
-                "imageUlr": "../src/assets/image/article.gif",
-                "title": "first title",
+                "imageUlr": "https://www.icegif.com/wp-content/uploads/writing-icegif-10.gif",                "title": "first title",
                 "readingTime": 5,
                 "date": "01/01/2023",
                 "Author": "Raad",
@@ -23,7 +22,7 @@
                 "id": 3,
                 "imageUlr": "https://i.pinimg.com/originals/bb/d7/cd/bbd7cd62c9f1f6778e91b11a71874ab6.gif",
                 "title": "third title",
-                "readingTime": ,
+                "readingTime": 22 ,
                 "date": "01/01/2023",
                 "Author": "Raad",
                 "content": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Impedit eum asperiores molestias id eos nihil saepe, perspiciatis molestiae beatae doloremque magni possimus deleniti quo ea enim aliquam et reiciendis facere. Odit adipisci incidunt delectus nihil mollitia doloribus impedit nemo voluptate? Expedita doloribus atque at iure placeat inventore nostrum veritatis eos modi, rerum deserunt reiciendis voluptate ipsa quis dicta neque quisquam."
@@ -39,7 +38,7 @@
             },
             {
                 "id": 5,
-                "imageUlr": "https://irp.cdn-website.com/5915c483/dms3rep/multi/freelance+giphy+side+hustle+make+money+giphy.gif",
+                "imageUlr": "https://cdn.dribbble.com/users/102219/screenshots/2845754/pencil.gif",                
                 "title": "fifth title",
                 "readingTime": 11,
                 "date": "01/01/2023",
@@ -76,3 +75,6 @@
         ]
     }
 }
+
+
+

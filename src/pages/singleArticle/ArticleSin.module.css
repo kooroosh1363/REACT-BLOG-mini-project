@@ -1,0 +1,39 @@
+.articleWrapper{
+    text-align: center;
+}
+
+
+.articleWrapper h1{
+    text-align: left;
+    margin-top: 50px;
+    margin-bottom: 10px;
+    font-size: 30px;
+    color: rgb(118, 45, 116);
+
+}
+
+.articleWrapper img{
+    width: 40%;
+    margin-bottom: 20px;
+    border-radius: 15px;
+}
+
+.articleWrapper p{
+    text-align: left;
+    color: #5c5a5a;
+    font-size: 18px;
+    font-weight: bolder;
+}
+
+.articleInfo{
+    display: flex;
+    justify-content: start;
+    margin-bottom: 10px;
+    flex-direction: row-reverse;
+}
+
+.articleInfo span{
+    margin-left: 10px;
+    color: #777;
+    font-weight: 700;
+}
