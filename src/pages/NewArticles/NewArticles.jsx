@@ -1,7 +1,7 @@
 import { useState } from "react";
 import Navbar from "../../components/navbar/Navbar";
 import styled from "./newArticles.module.css";
-function NewArticles(){
+function NewArticles() {
     // const [counter, setCounter] = useState(0);
 
     // const increaseToCounter = () =>{
@@ -11,16 +11,34 @@ function NewArticles(){
     // const decreaseToCounter = () =>{
     //     setCounter(counter - 1)
     // }
-    const [articlesTitle, setArticlesTitle] = useState("");
+    const [articles, setArticles] = useState({
+        title:"",
+        date:""
+    });
 
     const onHandleArticle = (e) => {
-        setArticlesTitle(e.target.value)
-    }
-    console.log(articlesTitle)
+        // setArticlesTitle(e.target.name, e.target.value)
+        // console.log(e.target.name, e.target.value)
 
-    return(
+        switch (e.target.name) {
+            case "title":
+                setArticles({
+                    title:e.target.value
+                })
+                break;
+
+            case "date":
+                setArticles({
+                    date:e.target.value
+                })
+                break;
+        }
+    };
+    console.log(articles);
+
+    return (
         <div>
-            <Navbar title='RAAD BLOG'/>
+            <Navbar title='RAAD BLOG' />
 
             <div className={styled.createArticlePage}>
                 <div className="container">
@@ -31,7 +49,12 @@ function NewArticles(){
                     <button onClick={decreaseToCounter}>decrease</button> */}
                     <div className={styled.inputWrapper}>
                         <label>title</label>
-                        <input onChange={onHandleArticle} type="text" />
+                        <input name="title" onChange={onHandleArticle} type="text" />
+                    </div>
+
+                    <div className={styled.inputWrapper}>
+                        <label>date</label>
+                        <input name="date" onChange={onHandleArticle} type="text" />
                     </div>
 
                 </div>
