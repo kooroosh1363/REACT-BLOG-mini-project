@@ -2,6 +2,7 @@ import { useState } from "react";
 import Navbar from "../../components/navbar/Navbar";
 import styled from "./newArticles.module.css";
 import Input from "../../components/input/input";
+import TextArea from "../../components/textarea/TextArea";
 function NewArticles() {
     
     const [articles, setArticles] = useState({
@@ -9,6 +10,7 @@ function NewArticles() {
         date: "",
         readingTime:"",
         author:"",
+        text:"",
     });
 
     const onHandleArticle = (e) => {
@@ -17,6 +19,20 @@ function NewArticles() {
             [e.target.name]:e.target.value,
         }));
     };
+
+
+
+    const onHandleText = (e) => {
+        setArticles((pervState) =>({
+            ...pervState,
+            text:e.target.value,
+        }));
+    };
+
+
+
+
+
     console.log(articles);
 
     return (
@@ -30,7 +46,7 @@ function NewArticles() {
                     <Input label="Date:" name="date" placeHolder="0000/00/00" handleChange={onHandleArticle}/>
                     <Input label="ReadingTime:" name="readingTime" placeHolder="00 min" handleChange={onHandleArticle}/>
                     <Input label="Author:" name="author" placeHolder="john doe" handleChange={onHandleArticle}/>
-
+                    <TextArea label="Text:" handleChange={onHandleText}/>
                 </div>
             </div>
 
