@@ -2,39 +2,19 @@ import { useState } from "react";
 import Navbar from "../../components/navbar/Navbar";
 import styled from "./newArticles.module.css";
 function NewArticles() {
-    // const [counter, setCounter] = useState(0);
-
-    // const increaseToCounter = () =>{
-    //     setCounter(counter + 1)
-    // }
-
-    // const decreaseToCounter = () =>{
-    //     setCounter(counter - 1)
-    // }
+    
     const [articles, setArticles] = useState({
         title: "",
-        date: ""
+        date: "",
+        readingTime:"",
+        author:"",
     });
 
     const onHandleArticle = (e) => {
-        // setArticlesTitle(e.target.name, e.target.value)
-        // console.log(e.target.name, e.target.value)
-
-        switch (e.target.name) {
-            case "title":
-                setArticles((prevState) => ({
-                    ...prevState,
-                    title: e.target.value,
-                }));
-                break;
-
-            case "date":
-                setArticles((prevState) => ({
-                    ...prevState,
-                    date: e.target.value,
-                }));
-                break;
-        }
+        setArticles((pervState) =>({
+            ...pervState,
+            [e.target.name]:e.target.value,
+        }));
     };
     console.log(articles);
 
@@ -45,18 +25,24 @@ function NewArticles() {
             <div className={styled.createArticlePage}>
                 <div className="container">
                     <h1>create article :</h1>
-
-                    {/* <button onClick={increaseToCounter}>increase</button>
-                    <span>{counter}</span>
-                    <button onClick={decreaseToCounter}>decrease</button> */}
                     <div className={styled.inputWrapper}>
-                        <label>title</label>
+                        <label>Title</label>
                         <input name="title" onChange={onHandleArticle} type="text" />
                     </div>
 
                     <div className={styled.inputWrapper}>
-                        <label>date</label>
+                        <label>Date</label>
                         <input name="date" onChange={onHandleArticle} type="text" />
+                    </div>
+
+                    <div className={styled.inputWrapper}>
+                        <label>Time For Reading :</label>
+                        <input name="readingTime" onChange={onHandleArticle} type="text" />
+                    </div>
+
+                    <div className={styled.inputWrapper}>
+                        <label>Author</label>
+                        <input name="author" onChange={onHandleArticle} type="text" />
                     </div>
 
                 </div>
