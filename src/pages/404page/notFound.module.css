@@ -1,0 +1,20 @@
+.notFoundWrapper {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.notFoundWrapper h1 {
+    font-size: 550px;
+    color: rgb(118, 45, 116);
+
+
+}
+
+.notFoundWrapper p {
+    font-size: 40px;
+    color: rgb(118, 45, 116);
+    margin: 5rem 0;
+    font-weight: bolder;
+}
