@@ -12,8 +12,8 @@ function NewArticles() {
     //     setCounter(counter - 1)
     // }
     const [articles, setArticles] = useState({
-        title:"",
-        date:""
+        title: "",
+        date: ""
     });
 
     const onHandleArticle = (e) => {
@@ -22,15 +22,17 @@ function NewArticles() {
 
         switch (e.target.name) {
             case "title":
-                setArticles({
-                    title:e.target.value
-                })
+                setArticles((prevState) => ({
+                    ...prevState,
+                    title: e.target.value,
+                }));
                 break;
 
             case "date":
-                setArticles({
-                    date:e.target.value
-                })
+                setArticles((prevState) => ({
+                    ...prevState,
+                    date: e.target.value,
+                }));
                 break;
         }
     };
