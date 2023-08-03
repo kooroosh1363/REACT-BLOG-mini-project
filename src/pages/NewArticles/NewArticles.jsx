@@ -1,6 +1,7 @@
 import { useState } from "react";
 import Navbar from "../../components/navbar/Navbar";
 import styled from "./newArticles.module.css";
+import Input from "../../components/input/input";
 function NewArticles() {
     
     const [articles, setArticles] = useState({
@@ -19,36 +20,21 @@ function NewArticles() {
     console.log(articles);
 
     return (
-        <div>
+        <>
             <Navbar title='RAAD BLOG' />
 
             <div className={styled.createArticlePage}>
                 <div className="container">
                     <h1>create article :</h1>
-                    <div className={styled.inputWrapper}>
-                        <label>Title</label>
-                        <input name="title" onChange={onHandleArticle} type="text" />
-                    </div>
-
-                    <div className={styled.inputWrapper}>
-                        <label>Date</label>
-                        <input name="date" onChange={onHandleArticle} type="text" />
-                    </div>
-
-                    <div className={styled.inputWrapper}>
-                        <label>Time For Reading :</label>
-                        <input name="readingTime" onChange={onHandleArticle} type="text" />
-                    </div>
-
-                    <div className={styled.inputWrapper}>
-                        <label>Author</label>
-                        <input name="author" onChange={onHandleArticle} type="text" />
-                    </div>
+                    <Input label="Title:" name="title" placeHolder="name's article..." handleChange={onHandleArticle}/>
+                    <Input label="Date:" name="date" placeHolder="0000/00/00" handleChange={onHandleArticle}/>
+                    <Input label="ReadingTime:" name="readingTime" placeHolder="00 min" handleChange={onHandleArticle}/>
+                    <Input label="Author:" name="author" placeHolder="john doe" handleChange={onHandleArticle}/>
 
                 </div>
             </div>
 
-        </div>
+        </>
     );
 }
 
