@@ -8,7 +8,7 @@ import { Link } from "react-router-dom";
 import ArticleSin from "../singleArticle/ArticleSin";
 import Spinner from "../../components/spinner/spinner";
 
-function Home() {
+function Home() { 
 
     const [articles, setArticles] = useState([]);
     const [isLoading, setIsLoading] = useState(false)
