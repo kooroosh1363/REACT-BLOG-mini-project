@@ -1,3 +1,10 @@
+/* articles */
+.articles{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
 /* homeWrapper */
 .homeWrapper a{
     width: 23%;
@@ -12,10 +19,5 @@
 }
 
 
-/* articles */
-.articles{
-    display: flex;
-    justify-content: space-between;
-    flex-wrap: wrap;
-}
+
 

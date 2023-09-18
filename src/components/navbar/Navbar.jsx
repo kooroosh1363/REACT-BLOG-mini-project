@@ -1,18 +1,13 @@
 import styled from './Navbar.module.css'
-import {Link} from "react-router-dom"
+import { Link } from "react-router-dom"
 
 function Navbar(props) {
-
-
-
-
-
     return (
         <div className={styled.headerWrapper}>
             <div className="container">
                 <div className={styled.header}>
                     <div className={styled.menu}>
-                        <div><h3>{props.title}</h3></div>
+                        <div><h3>{props.title}</h3></div>ِ
                         <div >
                             <ul>
                                 <li><a href="#"><Link>Home</Link></a></li>
@@ -34,7 +29,4 @@ function Navbar(props) {
 
     );
 }
-
-
-
 export default Navbar;
