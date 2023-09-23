@@ -32,13 +32,13 @@ function Home() {
     }, []);
 
     return (
+        // <></>
 
         <div className={styled.homeWrapper}>
             <Navbar title='RAAD BLOG' />
             
             <div className="container">
                 <h2>New Articles :</h2>
-
                 {
                     isLoading ? <Spinner/> : (<div className={styled.articles}>
                         {
@@ -48,19 +48,9 @@ function Home() {
                                 </Link>
                             ))
                         }
-
-
-
-
                     </div>)
                 }
-
-
-
-
-
             </div>
-
             <Footer />
         </div>
 
