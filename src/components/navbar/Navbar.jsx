@@ -10,7 +10,7 @@ function Navbar(props) {
                         <div><h3>{props.title}</h3></div>ِ
                         <div >
                             <ul>
-                                <li><a href="#"><Link>Home</Link></a></li>
+                                {/* <li><a href="#"><Link>Home</Link></a></li> */}
                                 <li><a href="#"><Link to="/">Articles</Link></a></li>
                                 <li><a href="#"><Link to="/NewArticles">New Articles</Link></a></li>
                                 <li><a href="#"><Link to="/about">About Us</Link></a></li>

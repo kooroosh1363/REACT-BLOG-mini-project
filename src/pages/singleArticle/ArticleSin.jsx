@@ -15,12 +15,14 @@ function ArticleSin() {
 
     const [isLoading, setIsLoading] = useState(false)
 
+    // http://localhost:8000/articles/1
+
     const params = useParams()
 
     useEffect(() => {
         setIsLoading(true)
         axios.get(`http://localhost:8000/articles/${params.id}`).then((result) => {
-
+            // console.log(result.data);
             setArticle(result.data);
             setIsLoading(false)
         })
