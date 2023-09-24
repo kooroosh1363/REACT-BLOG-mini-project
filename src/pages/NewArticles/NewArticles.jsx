@@ -47,7 +47,16 @@ function NewArticles() {
     };
 
 
-    // console.log(articles);
+     // console.log(articles);
+
+    // const [counter, setCounter] = useState(0)
+
+    // const addCounter = () => {
+    //     setCounter(counter + 1);
+    // }
+    // const lessCounter = () => {
+    //     setCounter(counter - 1);
+    // }
 
     return (
         <>
@@ -56,6 +65,11 @@ function NewArticles() {
             <div className={styled.createArticlePage}>
                 <div className="container">
                     <h1>Create Article :</h1>
+
+                        {/* <button onClick={addCounter}>increase</button>
+                        <span>{counter}</span>
+                        <button onClick={lessCounter}>decrease</button> */}
+                        
                     <Input label="Title:" name="title" placeHolder="name's article..." handleChange={onHandleArticle} type="text" />
                     <Input label="Date:" name="date" placeHolder="0000/00/00" handleChange={onHandleArticle} type="text" />
                     <Input label="ReadingTime:" name="readingTime" placeHolder="00 min" handleChange={onHandleArticle} type="text" />
